@@ -1,0 +1,131 @@
+/* styles.css */
+@import url('https://fonts.googleapis.com/css2?family=Scheherazade+New:wght@700&display=swap');
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    color: #333;
+}
+
+header {
+    position: relative;
+    color: white;
+}
+
+.hero {
+    background: url('hero-image.jpg') no-repeat center center/cover;
+    height: 60vh;
+    display: flex;
+    align-items: flex-end; /* Align items to the bottom */
+    padding-left: 2em;
+    padding-bottom: 1em;
+    position: relative;
+}
+
+.hero h1 {
+    font-size: 4em;
+    font-family: 'Scheherazade New', serif; /* Font with a desert and nomad theme */
+    background: rgba(0, 0, 0, 0.5);
+    padding: 0.5em 1em;
+    border-radius: 10px;
+    color: #fff;
+    margin: 0;
+    text-align: left;
+}
+
+nav {
+    background: #e2c275; /* Warm sandy tone for the navigation bar */
+    padding: 1em 0;
+    text-align: center;
+}
+
+nav a {
+    color: #4b2e05; /* Complementary dark brown color for navigation links */
+    text-decoration: none;
+    padding: 0 1em;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #c97b00; /* Slightly lighter brown for hover effect */
+}
+
+.section {
+    padding: 2em 2em; /* Reduced padding for sections */
+    background: #fff5e1; /* Light sand color for sections */
+    margin: 1em 0; /* Reduced margin between sections */
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background 0.5s ease-in-out;
+}
+
+.section:nth-child(even) {
+    background: #fff0d4; /* Slightly darker sand color for alternating sections */
+}
+
+.section h2 {
+    text-align: left; /* Left-aligned text for headings */
+    margin-bottom: 1em;
+    color: #3b3b3b; /* Darker text color for headings */
+}
+
+.content {
+    margin: 0 auto;
+    text-align: left; /* Left-aligned text for content */
+    color: #3b3b3b; /* Darker text color for content */
+}
+
+.media-img, .media-video {
+    display: block;
+    margin: 1em 0; /* Reduced margin for media elements */
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s ease-in-out;
+}
+
+.media-img:hover, .media-video:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    background: #4b2e05; /* Dark brown for the footer */
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+button {
+    display: block;
+    background: #4b2e05; /* Dark brown for buttons */
+    color: #fff;
+    padding: 0.5em 1em;
+    margin: 1em auto;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #c97b00; /* Lighter brown for hover effect */
+}
+
+fieldset {
+    border: 1px solid #ccc;
+    padding: 1em;
+    border-radius: 5px;
+    background: #fff; /* White background for form fieldset */
+}
+
+legend {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #3b3b3b; /* Darker text color for legend */
+}
